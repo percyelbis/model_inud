@@ -1,0 +1,13 @@
+Peligros por Inundaciones
+=> Objetivo: Identificar zonas probables de ocurrencia de inundaciones por rios y lagunas.
+=> Datos: Fisiografia, Pendiente, Litopermeabilidad, Cobertura Vegetal
+=> Criterios: 
+		Fisiografia: Valores altos ligeramente inclinados.
+		Pendiente: Valores mayores al 50%.
+		Litopermeabilidad: valores altos gravs arenas, limos, arcillas.
+		Cobertura vegetal: Valores altos coberturas sin vegetación.
+
+=> Pesos:
+Pendientes*(0.30)+ Litopermeabilidad*(0.18)+Fisiográfico*(0.37)+CoberturaVegetal*(0.15)=1
+=> Flujo SIG --- Modelador de graficos en Qgis => https://github.com/percyelbis/model_inud/
+=> Nivel de Inundación --- Nivel_Inud.png => https://github.com/percyelbis/model_inud
